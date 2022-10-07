@@ -1,0 +1,12 @@
+<p>blinding works!</p>
+<h1>String Interpolation</h1>
+<h2>{{titre}}</h2>
+<h1>Property Binding</h1>
+<button [disabled]="status">Cliquer Ici</button>
+
+
+<button (click)="changerTitre()">Changer titre</button>
+
+<h1>Two Way Binding</h1>
+<input type="text" [(ngModel)] = "nom"/>
+<h3>Bonjour {{nom}}</h3>
